@@ -1,0 +1,121 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FFE69A;
+    color: #999;
+}
+
+h1, h2, h3 {
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 3.5rem;
+    color: #FFD24C;
+}
+
+h2 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 3rem;
+    color: #92B4EC;
+}
+
+h3 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.5rem;
+    color: #92B4EC;
+}
+
+hr {
+    border: 5px dotted #FFF;
+    border-bottom: none;
+    width: 30%;
+    margin: 3% auto 3% 0;
+}
+
+#background {
+    margin: 5% 10%;
+    text-align: right;
+    position: absolute;
+    z-index: -1;
+}
+
+.bg1 {
+    width: 10%;
+}
+.bg2 {
+    width: 30%;
+    margin-right: 5%;
+}
+
+#header  {
+
+}
+
+#header p {
+    font-size: 0.85rem;
+    color: #999;
+    padding-left: 10px;
+}
+
+.container-fluid {
+    padding: 1% 12%;
+}
+
+a {
+    color: #666;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+#doing {
+    margin: 0% auto;
+    padding-bottom:5%;
+}
+
+#doing p {
+    width:57%;
+}
+
+.doing-img {
+    width: 360px;
+    border-radius: 20%;
+    transform: rotate(3deg);
+}
+
+.doing-icon {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.doing-item {
+
+}
+
+#footer {
+    background-color: #FFD24C;
+    text-align: center;
+    padding: 3% 10%;
+}
+
+#footer a {
+    color:#FFF;
+}
+
+#footer a:hover {
+    color:#999;
+}
+
+.social-media-icons {
+    padding-bottom:1%;
+    visibility:hidden;
+}
+
+.s-icon {
+    margin:10px;
+}
+
