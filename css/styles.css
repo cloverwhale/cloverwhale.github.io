@@ -1,7 +1,7 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: #FFE69A;
-    color: #999;
+    color: #666;
 }
 
 h1, h2, h3 {
@@ -27,17 +27,22 @@ h3 {
     color: #92B4EC;
 }
 
+h4 {
+    font-size: 1.2rem;
+}
+
 hr {
     border: 5px dotted #FFF;
     border-bottom: none;
-    width: 30%;
-    margin: 3% auto 3% 0;
+    width: 50%;
+    margin: 1% auto 3% 0;
 }
 
 #background {
-    margin: 5% 10%;
+    margin: auto;
     text-align: right;
     position: absolute;
+    width:90%;
     z-index: -1;
 }
 
@@ -46,7 +51,6 @@ hr {
 }
 .bg2 {
     width: 30%;
-    margin-right: 5%;
 }
 
 #header  {
@@ -64,7 +68,7 @@ hr {
 }
 
 a {
-    color: #666;
+    color: #92B4EC;
 }
 
 a:hover {
@@ -84,6 +88,7 @@ a:hover {
     width: 360px;
     border-radius: 20%;
     transform: rotate(3deg);
+    margin:2% auto;
 }
 
 .doing-icon {
