@@ -23,7 +23,7 @@ timezone:
 
 title: cloverwhale                          # the main title
 
-tagline: 個人用Python學習筆記  # it will display as the sub-title
+tagline: 個人用學習筆記  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   cloverwhale, 學習筆記
