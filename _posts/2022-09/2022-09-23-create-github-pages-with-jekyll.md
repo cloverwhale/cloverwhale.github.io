@@ -53,6 +53,14 @@ clone remote repo: 我直接在VSCode中操作 click Source Control > Clone Repo
 bundle
 ```
 
+執行
+```zsh
+bundle lock — add-platform x86_64-linux
+```
+這一行會在Gemfile.lock的PLATFORM底下, 加上x86_64-linux. 我不是很清楚為什麼要這麼做, 但是沒有這一行會無法在Github上deploy(我試著刪除這一行後push, Actions底下會看到錯誤)
+
+
+
 ## 修改 _config.yml
 照著註解修改成自己要的資料, 我遇到一個問題是baseurl的設定.
 
