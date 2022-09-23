@@ -6,6 +6,7 @@ tags: [heroku, website]
 author: cloverwhale
 ---
 
+原本有在Heroku上deploy一些作業的demo, 但可能11月底就沒了...
 ## Demo Sites
 
 To be removed or migrated to other platform, Heroku will no longer be free by the end of November 2022.
