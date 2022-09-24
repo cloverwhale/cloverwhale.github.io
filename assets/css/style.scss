@@ -3,26 +3,39 @@
 
 @import "jekyll-theme-chirpy";
 
+$primary: rgb(83, 122, 162);
+$blue: rgb(83, 122, 162);
+
 html[data-mode=dark] {
     /* Common color */
-    --link-color: rgb(154, 194, 234);
-    --link-underline-color: rgb(83, 122, 162);
+    --link-color: rgb(161, 162, 200);
+    --link-underline-color: rgb(79, 86, 121);
 
     /* Posts */
-    --toc-highlight: rgb(154, 194, 234);
-    --footnote-target-bg: rgb(83, 122, 162);
-
+    --toc-highlight: rgb(161, 162, 200);
+    --footnote-target-bg: rgb(79, 86, 121);
+    --tag-hover: rgb(79, 86, 121);
+    --tag-border: rgb(79, 86, 121);
     --highlighter-rouge-color:rgb(212, 212, 212);
 }
 
 #panel-wrapper {
     .post-tag {
         &:hover {
-        background-color: rgb(83, 122, 162);
-        border-color: rgb(83, 122, 162);
+        background-color: rgb(79, 86, 121);
+        border-color: rgb(79, 86, 121);
         color: #fff;
         transition: none;
         }
+    }
+}
+
+.post-tag {
+    &:hover {
+        @extend %tag-hover;
+        border-bottom: none;
+        text-decoration: none;
+        color: rgb(212, 212, 212);
     }
 }
 
@@ -30,4 +43,14 @@ html[data-mode=dark] {
     color: rgb(212, 212, 212)!important;
     border-bottom: 1px solid rgb(212, 212, 212);
     text-decoration: none;
+}
+
+.post-navigation {
+    .btn {
+      &:hover {
+        background: rgb(79, 86, 121);
+        color: #fff;
+        border-color: rgb(79, 86, 121);
+        }
+    }
 }

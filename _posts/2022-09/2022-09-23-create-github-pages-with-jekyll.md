@@ -4,7 +4,7 @@ title: Create Github Pages with Jekyll
 date: 2022-09-23 20:44 +0800
 description:
 image:
-category: [Github]
+category: [Notes]
 tags: [ruby, jekyll, github]
 author: cloverwhale
 ---
@@ -58,8 +58,6 @@ bundle
 bundle lock — add-platform x86_64-linux
 ```
 這一行會在Gemfile.lock的PLATFORM底下, 加上x86_64-linux. 我不是很清楚為什麼要這麼做, 但是沒有這一行會無法在Github上deploy(我試著刪除這一行後push, Actions底下會看到錯誤)
-
-
 
 ## 修改 _config.yml
 照著註解修改成自己要的資料, 我遇到一個問題是baseurl的設定.
@@ -148,7 +146,7 @@ jekyll_compose:
 
 ## 結語
 
-以上就是一個完全看不懂Ruby在幹嘛的人, 一直做Google search的步驟...
+以上就是一個完全看不懂Ruby在幹嘛的人, 一直做Google search的成果...
 
 其他如何新增favicon等等就是[Chirpy Demo](https://chirpy.cotes.page/)網站都找的到.
 
