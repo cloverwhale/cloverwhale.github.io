@@ -11,8 +11,10 @@ order: 4
 
 ## This Website
 
-收集自己學習筆記的地方. 不想一直重複自己的問題在Google search上...
+坐四望五學程式, 要有個收集自己學習筆記的地方. 不然會一直Google上重複搜尋自己的問題...
 
 ## My Hobbies
 #### Collecting Sea Glass
+撿海玻璃 (萬一老了要轉行當資源回收的練習... XD)
+
 ![Sea Glass](/assets/img/about/sea-glass.jpg){: width="360" .left}
