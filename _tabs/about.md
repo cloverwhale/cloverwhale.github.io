@@ -11,7 +11,7 @@ order: 4
 
 ## This Website
 
-坐四望五學程式, 要有個收集自己學習筆記的地方. 不然會一直Google上重複搜尋一樣的問題...
+坐四望五學程式, 要有個收集自己學習筆記的地方. 不然會一直在Google上重複搜尋一樣的問題...
 
 ## My Hobbies
 #### Collecting Sea Glass
