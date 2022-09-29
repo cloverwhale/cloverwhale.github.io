@@ -78,16 +78,17 @@ fig.show()
 ```python
 fig = px.line(
     df_top_10_dt_year, 
-    x=df_top_10_dt_year.index.array, # x data來源column
-    y='Location', # y data來源column
-    color='Organisation', # 多個線條, 顏色的data來源column
-    markers=True, # 是否顯示marker
-    title='Number of Launches over Time by the Top 10 Organisations', # 圖表標題
-    labels= { # 標籤名稱設定
+    x=df_top_10_dt_year.index.array,  # x data來源column
+    y='Location',  # y data來源column
+    color='Organisation',  # 多個線條, 顏色的data來源column
+    markers=True,  # 是否顯示marker
+    title='Number of Launches over Time by the Top 10 Organisations',  # 圖表標題
+    labels= {  # 標籤名稱設定
         'Location': 'Number of Launches',
         'x': 'Year'
-        })
-fig.update_layout(xaxis=dict(range=[1957,2020])) # 設定x軸的上下限, y軸則是yaxis
+    }
+)
+fig.update_layout(xaxis=dict(range=[1957,2020]))  # 設定x軸的上下限, y軸則是yaxis
 ```
 
 #### Bar
@@ -95,14 +96,16 @@ fig.update_layout(xaxis=dict(range=[1957,2020])) # 設定x軸的上下限, y軸�
 - [Plotly: Bar Charts](https://plotly.com/python/bar-charts/)
 
 ```python
-fig = px.bar(df_org, 
-    x=df_org.index.array, # x data來源column
-    y='Organisation', # y data來源column
-    title='Number of launches per Company', # 圖表標題
-    labels= { # 標籤名稱設定
+fig = px.bar(
+    df_org,
+    x=df_org.index.array,  # x data來源column
+    y='Organisation',  # y data來源column
+    title='Number of launches per Company',  # 圖表標題
+    labels={  # 標籤名稱設定
         'y': 'Launches',
         'x': 'Organisation'
-    })
+    }
+)
 ```
 
 #### Pie
@@ -111,10 +114,11 @@ fig = px.bar(df_org,
 
 ```python
 fig = px.pie(
-    df_r_status, 
-    values='Rocket_Status', # data來源column
-    names=df_r_status.index.array, # 標籤名稱設定
-    title='Active versus Retired Rockets') # 圖表標題
+    df_r_status,
+    values='Rocket_Status',  # data來源column
+    names=df_r_status.index.array,  # 標籤名稱設定
+    title='Active versus Retired Rockets'  # 圖表標題
+)
 ```
 - hole = .3 # 可設定成甜甜圈圖
 
@@ -124,11 +128,12 @@ fig = px.pie(
 
 ```python
 fig = px.histogram(
-    df_p['Price_N'], 
-    nbins=50, # bin number
-    labels= { # 標籤名稱設定
+    df_p['Price_N'],
+    nbins=50,  # bin number
+    labels={  # 標籤名稱設定
         'value': 'millions USD'
-    })
+    }
+)
 ```
 
 #### Choropleth Maps
@@ -138,16 +143,16 @@ fig = px.histogram(
 
 ```python
 fig = px.choropleth(
-    df_country_counts, 
-    locations='ISO', # 地圖位置data來源column
-    color='Counts', # 顏色data來源column
-    hover_name='Country', # 滑鼠移上去時顯示的名稱資料來源
-    color_continuous_scale=px.colors.sequential.matter, # 顏色組合
-    title='Number of Launches by Country', # 圖表標題
-    labels= { # 標籤名稱設定
+    df_country_counts,
+    locations='ISO',  # 地圖位置data來源column
+    color='Counts',  # 顏色data來源column
+    hover_name='Country',  # 滑鼠移上去時顯示的名稱資料來源
+    color_continuous_scale=px.colors.sequential.matter,  # 顏色組合
+    title='Number of Launches by Country',  # 圖表標題
+    labels={  # 標籤名稱設定
         'Counts': 'Number of Launches'
-        }
-    )
+    }
+)
 ```
 
 #### Sunburst
@@ -157,8 +162,8 @@ fig = px.choropleth(
 ```python
 fig = px.sunburst(
     df_mission_status,
-    path=['ISO', 'Mission_Status'], # 圖表分佈的data來源columns(由中心向外)
-    values='Mission_Status_Count' # 數值來源
+    path=['ISO', 'Mission_Status'],  # 圖表分佈的data來源columns(由中心向外)
+    values='Mission_Status_Count'  # 數值來源
 )
 ```
 
