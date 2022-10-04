@@ -5,7 +5,7 @@ date: 2022-09-27 21:02 +0800
 description:
 image:
 category: [Notes]
-tags: [python, pandas, jupyter notebook]
+tags: [python, pandas, jupyter notebook, plotly]
 author: cloverwhale
 ---
 紀錄100 Days of Code的作業: [分析Space Race](https://github.com/cloverwhale/py17_AnalyseSpaceRace)時遇到的一些問題 (還有常常忘記的method...)
