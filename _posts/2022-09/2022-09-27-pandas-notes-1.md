@@ -8,7 +8,7 @@ category: [Notes]
 tags: [python, pandas, jupyter notebook, plotly]
 author: cloverwhale
 ---
-紀錄100 Days of Code的作業: [分析Space Race](https://github.com/cloverwhale/py17_AnalyseSpaceRace)時遇到的一些問題 (還有常常忘記的method...)
+紀錄100 Days of Code的作業: [分析Space Race](https://github.com/cloverwhale/day98-Analyse-Space-Race)時遇到的一些問題 (還有常常忘記的method...)
 
 
 > 注意data type. 例如在分析像Price這種欄位時, 即使使用了pandas.Series.str等method做了處理, 還要記得轉成對應的numeric type. 不然無法做正確的sorting或是繪圖. 
