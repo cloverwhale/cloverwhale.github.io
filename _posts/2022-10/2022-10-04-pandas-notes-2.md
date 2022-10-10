@@ -8,9 +8,7 @@ category: [Notes]
 tags: [python, pandas, jupyter notebook, plotly, seaborn]
 author: cloverwhale
 ---
-紀錄100 Days of Code的作業: [美國警察造成死亡的案件分析](https://github.com/cloverwhale/day99-Deaths-Involving-Police-US)時遇到的一些問題和用到的method.
-
-## 用到的methods
+紀錄100 Days of Code的作業: [美國警察造成死亡的案件分析](https://github.com/cloverwhale/day99-Deaths-Involving-Police-US)時遇到的一些問題和用到的methods.
 
 ### .apply 和 .astype
 

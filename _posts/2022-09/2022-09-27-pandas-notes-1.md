@@ -17,8 +17,6 @@ author: cloverwhale
 > 要複寫原來的df要加上inplace=True
 {: .prompt-tip }
 
-## 常用的methods
-
 ### Column related
 
 #### Drop column
