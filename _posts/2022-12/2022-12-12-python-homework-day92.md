@@ -4,7 +4,7 @@ title: "Homework: Custom Web Scrapper"
 date: 2022-12-12 22:57 +0800
 description:
 image:
-category:
+category: [Notes]
 tags: [python, beautifulsoup, argparse, webscrapping]
 author: cloverwhale
 ---
