@@ -16,16 +16,16 @@ html[data-mode=dark] {
     --footnote-target-bg: rgb(79, 86, 121);
     --tag-hover: rgb(79, 86, 121);
     --tag-border: rgb(79, 86, 121);
-    --highlighter-rouge-color:rgb(212, 212, 212);
+    --highlighter-rouge-color: rgb(212, 212, 212);
 }
 
 #panel-wrapper {
     .post-tag {
         &:hover {
-        background-color: rgb(79, 86, 121);
-        border-color: rgb(79, 86, 121);
-        color: #fff;
-        transition: none;
+            background-color: rgb(79, 86, 121);
+            border-color: rgb(79, 86, 121);
+            color: #fff;
+            transition: none;
         }
     }
 }
@@ -40,17 +40,21 @@ html[data-mode=dark] {
 }
 
 %link-hover {
-    color: rgb(212, 212, 212)!important;
+    color: rgb(212, 212, 212) !important;
     border-bottom: 1px solid rgb(212, 212, 212);
     text-decoration: none;
 }
 
 .post-navigation {
-    .btn {
-      &:hover {
-        background: rgb(79, 86, 121);
-        color: #fff;
-        border-color: rgb(79, 86, 121);
+    .btn.btn-outline-primary {
+        &:hover {
+            background: rgb(79, 86, 121);
+            color: #fff;
+            border-color: rgb(79, 86, 121);
+        }
+
+        &:active {
+            box-shadow: 0 0 0 0.2rem rgba(79, 86, 121, 0.25) !important;
         }
     }
 }
